@@ -39,11 +39,12 @@ body {
     min-width: 100px;
 }
 
-.navBarButton {
+.navbarButton {
     background-color: white;
+    color: #717171;
 }
 
-.navBarButton:hover {
+.navbarButton:hover {
     background-color: #D9D9D9;
     border-radius: 5px;
 }
@@ -51,6 +52,7 @@ body {
 .homeButton {
     background-color: #D9D9D9;
     border-radius: 5px;
+    color: #717171;
 }
 
 .contactButton {

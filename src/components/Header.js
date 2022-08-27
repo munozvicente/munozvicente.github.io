@@ -15,10 +15,10 @@ const Header = () => {
             <li className="homeButton">
                 <p>Home</p>
             </li>
-            <li className="navBarButton">
+            <li className="navbarButton">
                 <p>About</p>
             </li>
-            <li className="navBarButton">
+            <li className="navbarButton">
                 <p>Projects</p>
             </li>
             <li className="contactButton">
