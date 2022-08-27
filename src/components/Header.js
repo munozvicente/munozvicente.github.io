@@ -1,10 +1,10 @@
 import React from "react";
 import "../css/hiragino.css";
-import "../css/main.css";
+import "../css/header.css";
 
 const Header = () => {
 
-  const darkModeIcon = "../img/icons/darkmode.png";
+  const darkModeIcon = require('../img/icons/darkmode.png');
 
   return (
     <header className="header">
@@ -26,9 +26,9 @@ const Header = () => {
             </li>
             </ul>
         </nav>
-        <div>
-            <p className="modeSwitch">ACTIVATE DARK MODE</p>
-            <img src="../img/icons/darkmode.png" alt="" />
+        <div className="modeSwitch"> 
+            <p>ACTIVATE DARK MODE</p>
+            <img src={darkModeIcon} alt="" height="30px" width="30px" />
         </div>
       </div>
     </header>

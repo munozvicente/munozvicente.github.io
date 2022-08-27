@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+body {
+    background-color: #fff;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.innerHero {
+    max-width: 70vw;
+    display: flex;
+    align-items: center;
+}
+
+.heroContainerOne {
+    max-width: 60%;
+    text-align: center;
+    line-height: 1;
+}
+
+.heroContainerOne h1 {
+    font-family: "Hiragino Kaku Gothic Pro W6", "ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W6";
+    font-size: 53px;
+}
+
+.heroContainerOne h2 {
+    font-family: "Hiragino Kaku Gothic Pro W6", "ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W6";
+    font-size: 24px;
+}
+
+.heroContainerOne h3 {
+    font-family: "Hiragino Kaku Gothic Pro W3", "ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3";
+    font-size: 18px;
+}
+
+.heroContainerOne h4 {
+    font-family: "Hiragino Maru Gothic Pro W4", "ãƒ’ãƒ©ã‚®ãƒŽä¸¸ã‚´ Pro W4";
+    font-size: 14px;
+}
+
+.heroContainerOne h5 {
+    font-family: "Hiragino Kaku Gothic Pro W6", "ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W6";
+    font-size: 12px;
+    color: #595757;
+}
+
+.heroContainerOne p {
+    font-family: "Hiragino Kaku Gothic Pro W3", "ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3";
+    font-size: 12px;
+}
+
+.heroContainerTwo {
+    max-width: 40%;
+    text-align: center;
+}
+
+.heroContainerTwo img {
+    max-width: 65%;
+    border-radius: 300px;
+}

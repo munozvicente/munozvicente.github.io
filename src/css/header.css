@@ -62,5 +62,15 @@ body {
 }
 
 .modeSwitch {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.modeSwitch p {
     color: #717171;
+}
+
+.modeSwitch img {
+    padding: 0 10px;
 }
