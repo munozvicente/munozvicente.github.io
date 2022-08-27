@@ -1,33 +1,36 @@
-import React from 'react';
+import React from "react";
+import "../css/hiragino.css";
+import "../css/main.css";
 
 const Header = () => {
 
-    return (
-        <header>
-            <h1 className="titleH1">VM</h1>
-            <nav>
-                <ul>
-                    <li>
-                        Home
-                    </li>
-                    <li>
-                        About
-                    </li>
-                    <li>
-                        Projects
-                    </li>
-                    <li>
-                        CONTACT
-                    </li>
-                </ul>
-            </nav>
-            <div>
-                <p>ACTIVATE DARK MODE || ACTIVATE LIGHT MODE STATE</p>
-                {/* DARK MODE || LIGHT MODE ICON */}
-            </div>
-        </header>
-    )
+  const darkModeIcon = "../img/icons/darkmode.png";
 
-}
+  return (
+    <header className="header">
+      <h1 className="MW6">VM.</h1>
+      <nav>
+        <ul>
+          <li className="homeButton">
+            <p>Home</p>
+          </li>
+          <li className="navbarButton">
+            <p>About</p>
+          </li>
+          <li className="navbarButton">
+            <p>Projects</p>
+          </li>
+          <li className="contactButton">
+            <p>CONTACT</p>
+          </li>
+        </ul>
+      </nav>
+      <div>
+        <p className="modeSwitch">ACTIVATE DARK MODE</p>
+        <img src="../img/icons/darkmode.png" alt="" />
+      </div>
+    </header>
+  );
+};
 
 export default Header;
