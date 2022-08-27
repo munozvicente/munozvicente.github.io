@@ -19,7 +19,7 @@ const Hero = () => {
             and started a journey that is still just beginning.
           </p>
           <h4>Now: Django / React Full-Stack Developer</h4>
-          <h5>READ MORE</h5>
+          <a href="/"><h5>READ MORE</h5></a>
         </div>
         <div className="heroContainerTwo"><img src={portraitPicture} alt="" height="" width="" /></div>
       </div>

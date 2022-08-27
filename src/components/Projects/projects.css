@@ -24,7 +24,18 @@ body {
     padding: 10px;
 }
 
+.projectContainerMiddle {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 10px;
+}
+
 .projectContainer img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.projectContainerMiddle img {
     width: 100%;
     border-radius: 5px;
 }
@@ -35,4 +46,23 @@ body {
     padding: 15px;
     display: inline-block;
     vertical-align: middle;
+}
+
+@media screen and (max-width: 768px) {
+
+    .innerProjects h1 {
+        text-align: center;
+    }
+
+    .projectContainer {
+        display: block;
+        padding: 0px 0px 40px 0px;
+    }
+
+    .projectContainerMiddle {
+        display: block;
+        padding: 0px 0px 40px 0px;
+    }
+
+    
 }

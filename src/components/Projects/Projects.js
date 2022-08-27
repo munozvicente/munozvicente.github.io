@@ -26,13 +26,13 @@ const Projects = () => {
             <h1>Projects</h1>
                 <div>
                     <div className='projectContainer'> {/* Project 1 */}
+                        <img src={project1.image} alt=""/>
                         <div className="innerProjectContainer">
                             <h2>{project1.title}</h2>
                             <p>{project1.description}</p>
                         </div>
-                        <img src={project1.image} alt=""/>
                     </div>
-                    <div className='projectContainer'> {/* Project 2 */}
+                    <div className='projectContainerMiddle'> {/* Project 2 */}
                         <img src={project2.image} alt=""/>
                         <div className="innerProjectContainer">
                             <h2>{project2.title}</h2>
@@ -40,11 +40,11 @@ const Projects = () => {
                         </div>
                     </div>
                     <div className='projectContainer'> {/* Project 3 */}
+                        <img src={project3.image} alt=""/>
                         <div className="innerProjectContainer">
                             <h2>{project3.title}</h2>
                             <p>{project3.description}</p>
                         </div>
-                        <img src={project3.image} alt=""/>
                     </div>
                 </div>
             </div>
