@@ -1,10 +1,10 @@
 import React from "react";
-import "../css/hiragino.css";
-import "../css/header.css";
+import "../../css/hiragino.css";
+import "./header.css";
 
 const Header = () => {
 
-  const darkModeIcon = require('../img/icons/darkmode.png');
+  const darkModeIcon = require('../../img/icons/darkmode.png');
 
   return (
     <header className="header">

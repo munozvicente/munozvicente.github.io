@@ -1,10 +1,10 @@
 import React from "react";
-import "../css/hiragino.css";
-import "../css/hero.css";
+import "../../css/hiragino.css";
+import "./hero.css";
 
 const Hero = () => {
 
-  const portraitPicture = require('../img/portrait.png')
+  const portraitPicture = require('../../img/portrait.png')
 
   return (
     <div className="hero">

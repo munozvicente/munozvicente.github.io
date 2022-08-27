@@ -1,10 +1,10 @@
 // import css
-import Header from './components/Header';
-import Hero from './components/Hero';
-import Tools from './components/Tools';
-import Projects from './components/Projects';
-import Contact from './components/Contact';
-import Footer from './components/Footer';
+import Header from './components/Header/Header.js';
+import Hero from './components/Hero/Hero.js';
+import Tools from './components/Tools/Tools.js';
+import Projects from './components/Projects/Projects.js';
+import Contact from './components/Contact/Contact.js';
+import Footer from './components/Footer/Footer.js';
 
 function App() {
   return (

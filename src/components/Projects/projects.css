@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+body {
+    background-color: #fff;
+}
+
+.projects {
+    display: flex;
+    justify-content: center;
+}
+
+.innerProjects {
+    max-width: 70vw;
+}
+
+.innerProjects h1 {
+    font-family: "Hiragino Kaku Gothic Pro W6", "ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W6";
+    font-size: 32px;
+}
+
+.projectContainer {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+
+.projectContainer img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.innerProjectContainer {
+    background-color: #D9D9D9;
+    border-radius: 5px;
+    padding: 15px;
+    display: inline-block;
+    vertical-align: middle;
+}
