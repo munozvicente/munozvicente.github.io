@@ -31,12 +31,12 @@ body {
 }
 
 .projectContainer img {
-    width: 100%;
+    width: 15vw;
     border-radius: 5px;
 }
 
 .projectContainerMiddle img {
-    width: 100%;
+    width: 15vw;
     border-radius: 5px;
 }
 
@@ -59,9 +59,17 @@ body {
         padding: 0px 0px 40px 0px;
     }
 
+    .projectContainer img {
+        width: 100%;
+    }
+
     .projectContainerMiddle {
         display: block;
         padding: 0px 0px 40px 0px;
+    }
+
+    .projectContainerMiddle img {
+        width: 100%;
     }
 
     
