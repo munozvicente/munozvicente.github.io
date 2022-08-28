@@ -1,10 +1,19 @@
-import React from "react";
+import React, { useEffect, createContext, useState } from "react";
+import ReactSwitch from "react-switch";
+
 import "../../css/hiragino.css";
 import "./header.css";
+
 
 const Header = () => {
 
   const darkModeIcon = require('../../img/icons/darkmode.png');
+
+  const [theme, setTheme] = useState("dark");
+  
+  const toggleTheme = () => {
+    setTheme((curr) => (curr === "light" ? "dark" : "light"));
+  };
 
   return (
     <header className="header">
@@ -27,10 +36,6 @@ const Header = () => {
             </ul>
         </nav>
         <div className="modeSwitch"> 
-            <a href="/">
-              <p>ACTIVATE DARK MODE</p>
-            </a>
-            <a href="/"><img src={darkModeIcon} alt="" height="30px" width="30px" /></a>
         </div>
       </div>
     </header>

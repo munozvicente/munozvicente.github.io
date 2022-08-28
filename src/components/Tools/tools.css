@@ -10,7 +10,8 @@
 
 .innerTools {
     padding: 15px 0px;
-    max-width: 70vw;
+    max-width: 80vw;
+    min-width: 70vw;
     border-top: 2px solid #E9E9E9;
     border-bottom: 2px solid #E9E9E9;
 }

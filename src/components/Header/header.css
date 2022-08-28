@@ -11,9 +11,10 @@ a {
 }
 
 .wrapper {
+    min-width: 70vw;
     max-width: 80vw;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     border-bottom: 3px solid #000;
 }
@@ -23,7 +24,7 @@ a {
 }
 
 .wrapper nav {
-    padding: 0px 70px;
+    padding: 0px 140px 0px 0px;
 }
 
 .wrapper nav > ul {

@@ -1,5 +1,6 @@
 import React, { useEffect, createContext, useState } from "react";
 import { initGA, trackingPageGA } from "./reactGA";
+import ReactSwitch from "react-switch";
 
 import "./App.css";
 
@@ -13,13 +14,12 @@ import Footer from "./components/Footer/Footer.js";
 export const ThemeContext = createContext(null);
 
 const App = () => {
-
   useEffect(() => {
     initGA();
     trackingPageGA("/home");
   }, []);
 
-  const [theme, setTheme] = useState("dark");
+  const [theme, setTheme] = useState("light");
 
   const toggleTheme = () => {
     setTheme((curr) => (curr === "light" ? "dark" : "light"));
@@ -28,6 +28,7 @@ const App = () => {
   return (
     <ThemeContext.Provider value={{ theme, toggleTheme }}>
       <div id={theme}>
+        <ReactSwitch className="reactSwitch" onChange={toggleTheme} checked={theme === "dark"}/>
         <Header />
         <Hero />
         <Tools />

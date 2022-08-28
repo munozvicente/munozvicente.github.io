@@ -73,3 +73,9 @@
     background-color: #B4B3B3;
     color: #fff;
 }
+
+.reactSwitch {
+    position: absolute !important;
+    left: 76.5vw;
+    top: 3vw;
+}
