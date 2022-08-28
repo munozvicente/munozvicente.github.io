@@ -1,0 +1,75 @@
+@charset "UTF-8";
+
+#light {
+    background-color: #fff;
+}
+
+#dark {
+    background-color: #282828;
+    color: #fff;
+    border-color: #fff;
+}
+
+#dark body {
+    background: #282828;
+}
+
+#dark .wrapper {
+    background-color: #282828;
+    color: #fff;
+    border-color: #fff;
+}
+
+#dark .navbarButton {
+    background-color: #282828;
+    color: #C8C8C8;
+}
+
+#dark .navbarButton:hover {
+    background-color: #3A3A3A;
+}
+
+#dark .homeButton {
+    background-color: #3A3A3A;
+    border-radius: 5px;
+    color: #C8C8C8;
+}
+
+#dark .contactButton {
+    background-color: #fff;
+    color: #000;
+}
+
+#dark .heroContainerOne h5 {
+    color: #C8C8C8;
+}
+
+#dark .innerTools img {
+    -webkit-filter: invert(1);
+    filter: invert(1);
+}
+
+#dark .innerProjectContainer {
+    background-color: #3A3A3A;
+    color: #fff;
+}
+
+#dark .formContainer input {
+    background-color: #3A3A3A;
+    color: whitesmoke;
+}
+
+#dark .formContainer textarea {
+    background-color: #3A3A3A;
+    color: whitesmoke;
+}
+
+#dark .formContainer button {
+    color: #C8C8C8;
+    background-color: #3A3A3A;
+}
+
+#dark .formContainer button:hover {
+    background-color: #B4B3B3;
+    color: #fff;
+}

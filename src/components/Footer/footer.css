@@ -1,11 +1,8 @@
 @charset "UTF-8";
 
-body {
-    background-color: #fff;
-}
-
 .footer {
     text-align: center;
+    height: 7vh;
 }
 
 .footer h5 {
