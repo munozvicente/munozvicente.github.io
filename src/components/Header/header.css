@@ -85,6 +85,10 @@ a {
         line-height: 1;
     }
 
+    .wrapper h1 {
+        text-align: left;
+    }
+
     .wrapper nav {
         padding: 0;
     }

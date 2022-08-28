@@ -79,3 +79,11 @@
     left: 76.5vw;
     top: 3vw;
 }
+
+@media screen and (max-width: 768px) {
+    .reactSwitch {
+        position: absolute !important;
+        left: 68.5vw;
+        top: 7.5vw;
+    }
+}
