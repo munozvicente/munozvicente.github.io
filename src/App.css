@@ -74,16 +74,32 @@
     color: #fff;
 }
 
-.reactSwitch {
-    position: absolute !important;
-    left: 76.5vw;
+.switch-container {
+    position: absolute;
+    display:flex;
+    left: 74.5vw;
     top: 3vw;
 }
 
+.switch-container img {
+    position: relative;
+    /*left: 76.5vw;
+    top: 3vw;*/
+}
+
+#dark .switch-container img {
+    -webkit-filter: invert(1);
+    filter: invert(1);
+}
+
 @media screen and (max-width: 768px) {
-    .reactSwitch {
+    .switch-container {
         position: absolute !important;
-        left: 68.5vw;
+        left: 55.5vw;
         top: 7.5vw;
+    }
+
+    .switch-container img {
+        position: relative;
     }
 }

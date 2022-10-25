@@ -27,7 +27,7 @@
 }
 
 .projectContainer img {
-    width: 15vw;
+    width: 25vw;
     border-radius: 5px;
 }
 
@@ -42,6 +42,15 @@
     padding: 15px;
     display: inline-block;
     vertical-align: middle;
+}
+
+.innerProjectContainer h4 {
+    padding-left: 15px;
+    color: #006d77
+}
+
+.innerProjectContainer h4:hover {
+    color: #ae2012
 }
 
 @media screen and (max-width: 768px) {
