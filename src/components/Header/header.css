@@ -1,5 +1,6 @@
 @charset "UTF-8";
 
+
 a {
     text-decoration: none;
     color: inherit;
@@ -32,7 +33,7 @@ a {
     flex-direction: row;
     list-style: none;
     align-items: center;
-    font-family: "Hiragino Kaku Gothic Pro W6", "ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W6";
+    font-family: "Open Sans", sans-serif;
 }
 
 .wrapper nav > ul > li {

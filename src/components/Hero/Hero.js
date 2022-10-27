@@ -1,5 +1,5 @@
 import React from "react";
-import "../../css/hiragino.css";
+import "../../css/fonts.css";
 import "./hero.css";
 
 const Hero = () => {

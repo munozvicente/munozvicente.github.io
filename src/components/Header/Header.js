@@ -1,7 +1,7 @@
 import React, { useEffect, createContext, useState } from "react";
 import ReactSwitch from "react-switch";
 
-import "../../css/hiragino.css";
+import "../../css/fonts.css";
 import "./header.css";
 
 
